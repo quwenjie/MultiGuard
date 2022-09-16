@@ -1,0 +1,11 @@
+*.pkl
+*.pth
+*.txt
+COCO
+NUS_WIDE
+voc2007
+ASL
+*.sh
+*.csv
+*.out
+__pycache__/
