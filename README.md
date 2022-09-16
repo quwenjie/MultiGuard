@@ -4,11 +4,11 @@ Official code for paper MultiGuard: Provably Robust Multi-label Classification a
 
 Pretrained robust models will be released soon.
 
-Dataset Preparation
+## Dataset Preparation
 
 Please place PASCAL-VOC in `./voc2007` , MS-COCO in `COCO`, NUS-WIDE in `./NUS_WIDE`.
 
-Evaluation
+## Evaluation
 
 Place pretrained models under `./models`
 
@@ -30,7 +30,7 @@ Evaluate on NUS-WIDE dataset, using $k=10,k'=2,\sigma=0.5$.
 python3 eval.py --begin=0 --end=3 --T=300 --N=1000  --sigma=0.5 --batch_size=32 --k=10 --k_prime=2 --alpha=0.001 --record=test_nus_result.txt --dataset_type=NUS-WIDE --model_name=tresnet_l --model_path=./models/nus_asl_0.5.pth --M=500
 ```
 
-Train
+## Train
 
 Train randomized smoothing model on VOC2007 dataset with $\sigma=0.5$.
 
