@@ -1,6 +1,6 @@
 # MultiGuard
 
-Official code for paper MultiGuard: Provably Robust Multi-label Classification against Adversarial Examples.
+Official code for paper MultiGuard: Provably Robust Multi-label Classification against Adversarial Examples, accepted by Neurips 2022.
 
 Pretrained robust models will be released soon.
 
